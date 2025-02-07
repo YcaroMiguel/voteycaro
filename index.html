@@ -1,63 +1,79 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ycaro Miguel - Campanha</title>
+    <title>Ycaro - Campanha 2025</title>
+    
+    <!-- Link do Bootstrap e CSS personalizado -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
-    <script defer src="script.js"></script>
+    
+    <!-- Link dos ícones do Bootstrap -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
 
-    <header>
-        <h1>Ycaro Miguel para Líder de Turma</h1>
-        <nav>
-            <ul>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#propostas">Propostas</a></li>
-                <li><a href="#depoimentos">Depoimentos</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
+    <!-- Cabeçalho -->
+    <header class="text-center">
+        <h1><i class="fa-solid fa-check-circle"></i> Vote Ycaro #10</h1>
+        <p>O líder que você precisa!</p>
     </header>
 
-    <section id="sobre">
-        <div class="container">
-            <h2>Quem Sou Eu?</h2>
-            <p>Me chamo Ycaro Miguel, sou dedicado, pontual e estou sempre pronto para ajudar. Quero representar vocês com responsabilidade e compromisso!</p>
+    <!-- Sobre Mim -->
+    <section id="sobre" class="fade-in">
+        <div class="container text-center">
+            <h2><i class="fa-solid fa-user"></i> Quem sou eu?</h2>
+            <img src="images/ycaro.jpg" alt="Ycaro Miguel" class="img-fluid rounded-circle">
+            <p>Olá, sou Ycaro Miguel! Quero representar a turma com dedicação e compromisso.</p>
         </div>
     </section>
 
-    <section id="propostas">
-        <div class="container">
-            <h2>Minhas Propostas</h2>
-            <ul>
-                <li>📚 Incentivar um ambiente de aprendizado mais colaborativo.</li>
-                <li>🤝 Aproximar os alunos dos professores para melhorar a comunicação.</li>
-                <li>🎉 Organizar atividades para fortalecer o espírito de equipe.</li>
+    <!-- Propostas -->
+    <section id="propostas" class="slide-in">
+        <div class="container text-center">
+            <h2><i class="fa-solid fa-bullhorn"></i> Minhas Propostas</h2>
+            <ul class="list-group">
+                <li class="list-group-item"><i class="fa-solid fa-check"></i> Melhor comunicação entre alunos e professores.</li>
+                <li class="list-group-item"><i class="fa-solid fa-check"></i> Eventos interativos e esportivos.</li>
+                <li class="list-group-item"><i class="fa-solid fa-check"></i> Apoio aos estudantes com dificuldades acadêmicas.</li>
+                <li class="list-group-item"><i class="fa-solid fa-check"></i> Representatividade real na sala.</li>
             </ul>
         </div>
     </section>
 
-    <section id="depoimentos">
-        <div class="container">
-            <h2>O que dizem sobre mim?</h2>
-            <p>"O Ycaro sempre ajuda quando precisamos!" - Colega de classe</p>
-            <p>"Um aluno dedicado e participativo!" - Professora</p>
+    <!-- Depoimentos -->
+    <section id="depoimentos" class="fade-in">
+        <div class="container text-center">
+            <h2><i class="fa-solid fa-comments"></i> O que dizem sobre mim?</h2>
+            <div class="depoimento">
+                <img src="images/pedro.jpg" alt="Pedro Araújo" class="img-fluid rounded-circle">
+                <p>“O Ycaro sempre esteve disposto a ajudar e foi um ótimo colega de turma.”</p>
+                <h4>- Pedro Araújo</h4>
+            </div>
+            <div class="depoimento">
+                <img src="images/ara.jpg" alt="Arã" class="img-fluid rounded-circle">
+                <p>“Ele é um aluno responsável, dedicado e merece nosso apoio.”</p>
+                <h4>- Arã</h4>
+            </div>
         </div>
     </section>
 
-    <section id="contato">
-        <div class="container">
-            <h2>Fale Comigo</h2>
-            <p>Tem alguma sugestão ou dúvida? Me chame na escola ou envie uma mensagem!</p>
-            <button id="apoioBtn">Apoie minha campanha!</button>
+    <!-- Contato -->
+    <section id="contato" class="slide-in">
+        <div class="container text-center">
+            <h2><i class="fa-solid fa-envelope"></i> Entre em Contato</h2>
+            <p>Quer saber mais? Me chame na escola ou nas redes sociais!</p>
         </div>
     </section>
 
-    <footer>
-        <p>&copy; 2025 Campanha Ycaro Miguel - Todos os direitos reservados.</p>
+    <!-- Rodapé -->
+    <footer class="text-center">
+        <p>© 2025 Campanha Ycaro #10 - Todos os direitos reservados.</p>
     </footer>
 
+    <!-- Bootstrap e JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
