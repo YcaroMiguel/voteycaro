@@ -1,8 +1,3 @@
-// Exibe uma mensagem de boas-vindas ao carregar o site
-window.onload = function() {
-    alert("Bem-vindo à campanha de Ycaro e Gabriel para líder e vice-líder de turma!");
-};
-
 // Exibe o botão de voltar ao topo quando rolar a página
 window.onscroll = function() { scrollFunction() };
 
