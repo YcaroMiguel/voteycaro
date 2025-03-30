@@ -4,7 +4,7 @@ body {
 
 .hero {
     background: url('https://source.unsplash.com/1600x900/?school') center/cover no-repeat;
-    color: black;
+    color: white;
     padding: 100px 0;
 }
 
@@ -18,15 +18,11 @@ footer {
 }
 
 .navbar-logo {
-    height: 150px; /* Define a altura */
+    height: 50px; /* Define a altura */
     transition: transform 0.3s ease-in-out; /* Animação ao passar o mouse */
 }
 
 .navbar-logo:hover {
     transform: scale(1.1); /* Aumenta um pouco ao passar o mouse */
     opacity: 0.8; /* Deixa um pouco transparente */
-}
-
-li {
-    color: #0D6EFD;
 }
