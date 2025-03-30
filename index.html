@@ -1,79 +1,92 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ycaro - Campanha 2025</title>
-    
-    <!-- Link do Bootstrap e CSS personalizado -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <title>Ycaro & Hiel - Campanha 2026</title>
     <link rel="stylesheet" href="styles.css">
-    
-    <!-- Link dos ícones do Bootstrap -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
 </head>
 <body>
 
-    <!-- Cabeçalho -->
-    <header class="text-center">
-        <h1><i class="fa-solid fa-check-circle"></i> Vote Ycaro #10</h1>
-        <p>O líder que você precisa!</p>
+    <!-- Barra de Navegação -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <li><a href="#"><img src="images/logo-campanha.png" alt="Logo Ycaro & Hiel" class="navbar-logo"></a></li>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#propostas">Propostas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#quem-somos">Quem Somos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Seção Inicial -->
+    <header class="hero">
+        <div class="container text-center">
+            <h1>Ycaro e Hiel - A chave pra mudança!</h1>
+            <p>Trabalhando juntos para uma turma mais organizada e unida!</p>
+            <a href="#propostas" class="btn btn-light btn-lg">Conheça nossas propostas</a>
+        </div>
     </header>
 
-    <!-- Sobre Mim -->
-    <section id="sobre" class="fade-in">
-        <div class="container text-center">
-            <h2><i class="fa-solid fa-user"></i> Quem sou eu?</h2>
-            <img src="images/ycaro.jpg" alt="Ycaro Miguel" class="img-fluid rounded-circle">
-            <p>Olá, sou Ycaro Miguel! Quero representar a turma com dedicação e compromisso.</p>
-        </div>
-    </section>
-
-    <!-- Propostas -->
-    <section id="propostas" class="slide-in">
-        <div class="container text-center">
-            <h2><i class="fa-solid fa-bullhorn"></i> Minhas Propostas</h2>
-            <ul class="list-group">
-                <li class="list-group-item"><i class="fa-solid fa-check"></i> Melhor comunicação entre alunos e professores.</li>
-                <li class="list-group-item"><i class="fa-solid fa-check"></i> Eventos interativos e esportivos.</li>
-                <li class="list-group-item"><i class="fa-solid fa-check"></i> Apoio aos estudantes com dificuldades acadêmicas.</li>
-                <li class="list-group-item"><i class="fa-solid fa-check"></i> Representatividade real na sala.</li>
-            </ul>
-        </div>
-    </section>
-
-    <!-- Depoimentos -->
-    <section id="depoimentos" class="fade-in">
-        <div class="container text-center">
-            <h2><i class="fa-solid fa-comments"></i> O que dizem sobre mim?</h2>
-            <div class="depoimento">
-                <img src="images/pedro.jpg" alt="Pedro Araújo" class="img-fluid rounded-circle">
-                <p>“O Ycaro sempre esteve disposto a ajudar e foi um ótimo colega de turma.”</p>
-                <h4>- Pedro Araújo</h4>
+    <!-- Seção de Propostas -->
+    <section id="propostas" class="container my-5">
+        <h2 class="text-center">Nossas Propostas</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Jornal ou Boletim Digital</h5>
+                        <p class="card-text">Fazer um resumo semanal dos principais acontecimentos da escola e da turma.
+                        </p>
+                    </div>
+                </div>
             </div>
-            <div class="depoimento">
-                <img src="images/ara.jpg" alt="Arã" class="img-fluid rounded-circle">
-                <p>“Ele é um aluno responsável, dedicado e merece nosso apoio.”</p>
-                <h4>- Arã</h4>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Eventos e Atividades</h5>
+                        <p class="card-text">Oferecer revisões (em matemática) para ajudar a turma a atingir notas maiores.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Mais Comunicação</h5>
+                        <p class="card-text">Criar um conselho da sala para ouvir as sugestões que vocês (alunos) têm, pois cada opinião importa.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Contato -->
-    <section id="contato" class="slide-in">
+    <!-- Seção "Quem Somos" -->
+    <section id="quem-somos" class="bg-light py-5">
         <div class="container text-center">
-            <h2><i class="fa-solid fa-envelope"></i> Entre em Contato</h2>
-            <p>Quer saber mais? Me chame na escola ou nas redes sociais!</p>
+            <h2>Quem Somos?</h2>
+            <p>Somos Ycaro e Hiel, dois estudantes comprometidos em tornar a turma mais organizada e participativa. Acreditamos que, juntos, podemos transformar o ambiente escolar em um espaço mais colaborativo e motivador. Nossa campanha é baseada em diálogo, planejamento e inovação. <br> Já mostramos que somos capazes de liderar nossa turma com exemplos práticos: ajudamos a organizar atividades, lideramos grupos de trabalhos e sempre buscamos encontrar soluções para as dificuldades dos grupos. Estamos prontos para dar o próximo passo e fazer mais pela turma! A mudança começa agora, e ela precisa de você!</p>
         </div>
+    </section>
+
+    <!-- Seção "Contato" -->
+    <section id="contato" class="container my-5 text-center">
+        <h2>Entre em Contato</h2>
+        <p>Queremos ouvir suas sugestões! Se tiver ideias ou quiser participar ativamente, fale com a gente. Nos siga nas redes sociais para acompanhar as novidades da campanha e deixar sua opinião.</p>
+        <a href="https://instagram.com/voteycaro" target="_blank" class="btn btn-primary">Instagram</a>
+        <a href="https://youtube.com/@voteycaro" target="_blank" class="btn btn-primary">Youtube</a>
     </section>
 
     <!-- Rodapé -->
-    <footer class="text-center">
-        <p>© 2025 Campanha Ycaro #10 - Todos os direitos reservados.</p>
+    <footer class="bg-dark text-light text-center py-3">
+        <p>&copy; 2025 Ycaro & Hiel - Todos os direitos reservados. Juntos, construímos uma turma melhor!</p>
     </footer>
 
-    <!-- Bootstrap e JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="script.js"></script>
+
 </body>
 </html>
